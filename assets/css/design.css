@@ -1,0 +1,51 @@
+	
+	:root {
+		--small-text: calc(1.55em + 25vw);
+		--med-text: calc(4.75em + 5vw);
+	}
+	body {
+		font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	}
+	#btn-one, .button{
+		background-color: #739d00;
+		border-color: transparent !important;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Libre Baskerville', serif;	
+	}
+	#header-description {
+		text-shadow: 4px 6px 11px rgba(0, 0, 0, .65);
+	}
+	#intro {
+		background-color: #fc6900;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='800' y1='897' x2='800' y2='450'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='860' x2='0' y2='380'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='800' x2='0' y2='300'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' gradientUnits='userSpaceOnUse' x1='0' y1='760' x2='0' y2='250'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='e' gradientUnits='userSpaceOnUse' x1='0' y1='700' x2='0' y2='200'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='f' gradientUnits='userSpaceOnUse' x1='0' y1='660' x2='0' y2='150'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='0' y1='600' x2='0' y2='100'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' gradientUnits='userSpaceOnUse' x1='0' y1='530' x2='0' y2='50'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3ClinearGradient id='i' gradientUnits='userSpaceOnUse' x1='0' y1='450' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%23fc6900'/%3E%3Cstop offset='1' stop-color='%232d0052'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1600' height='900'/%3E%3Cpath fill='url(%23b)' d='M-1298 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2040.8z'/%3E%3Cpath fill='url(%23c)' d='M-1344 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2040.9z'/%3E%3Cpath fill='url(%23d)' d='M-1390 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2041.1z'/%3E%3Cpath fill='url(%23e)' d='M-1436 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2041.2z'/%3E%3Cpath fill='url(%23f)' d='M-1482 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.8-99.5-13.9-209.1 37.3-287.4h-2040.8z'/%3E%3Cpath fill='url(%23g)' d='M-1528 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2041.5z'/%3E%3Cpath fill='url(%23h)' d='M-1574 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-51.6-125.5 54.4-229.7 58.4-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2040.8z'/%3E%3Cpath fill='url(%23i)' d='M-1620 0v900c0 0 2039.4 0 2040.8 0c-20.1 0-47-48.7-55.2-69.1c-50.7-125.5 55.3-229.7 59.3-350.3c2.2-67.8-26.3-129-42-193.2c-24.3-99.5-13.3-209.1 37.9-287.4h-2041.8z'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+	}
+	#sidebar {
+		background: #000500;
+	}
+	#sidebar nav a:before{
+		background: #fff;
+	}
+	#sidebar nav a:after {
+		background-image: linear-gradient(to right, #fdfdfd, #f36607);
+	}
+	.wrapper.style1{
+		background-color: #2d0050;
+	}
+	.wrapper.style2 {
+		background-color: #1a0030;
+	}
+	.wrapper.style3 {
+		background-color: #f36902;
+	}
+	.wrapper.style1-alt {
+		background-color: #739c02;
+	}
+	#footer > .inner .menu {
+		color: #fff;
+	}
+	ul.actions li {
+		padding: 0 1em 0 1em;
+	}
